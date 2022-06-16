@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav1 {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+.lista1 li{
+       display: inline-block;
+        padding: 20px;
+
+}
+.nav2{
+    background-color:  #F0A83E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    height: 62px;
+    color: white;
+}
+.lista2 li{
+    display: inline-block;
+    padding: 20px;
+}
+.parte1 {
+    display: flex;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parte2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo1{
+    position:absolute;
+    width: 365px;
+    height: 54px;
+    margin: 156px 12px 199px 648px;
+    background-color: white;
+    font-weight: 400px;
+    font-size: 30px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.titulo2{
+    margin: 222px 95px 168px 740px;
+    font-size: 16px;
+    text-align: center;
+}
+.boton{
+    color: white;
+    position: absolute;
+    background-color: #F0A83E;
+    margin: 253px 117px 107px 767px;
+    width: 141px;
+    height: 49px;
+    padding: 15px 23px;
+    border-radius: 5px;
+}
+.patita{  
+    position: absolute;
+    width: 70px;
+    height: 75px;
+    top: 510px;
+}
+h2 {
+    position: absolute;
+    top: 586px;
+    width: 406px;
+    height: 47px;
+    font-weight: 700px;
+    font-size: 40px;
+}
+.productos{
+    position: absolute;
+    top: 700px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.caja-uno{
+    width: 300px;
+    height: 350px;
+    background-color: #F3F3F3;
+    top: 300px;
+    text-align:center ;
+    position: relative;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.caja-dos{
+    width: 300px;
+    height: 350px;
+    background-color: #F3F3F3;
+    top: 300px;
+    text-align:center ;
+    position: relative;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.caja-tres{
+    width: 300px;
+    height: 350px;
+    background-color: #F3F3F3;
+    top: 300px;
+    text-align:center ;
+    position: relative;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.churrasquito{
+    width: 300px;
+    height:275px;
+}
+.contenedor{
+    width: 300px;
+    height:275px;
+}
+.huesito{
+    width: 300px;
+    height:275px;
+}
+p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.precio {
+    color: chocolate;
+}
+.container2{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    top: 2000px;
+}
+.nombre{
+    background-color: #3C2313;
+    color: white;
+
+}
+.detalles { 
+    display: flex;
+    background-color: #3C2313; 
+    color: white;
+    width: 340px; 
+    height: 40px; 
+    border-radius: 15px; 
+    margin: 10px; 
+    padding: 15px 178px 14px 14px;
+    font-size: 9px;
+}
+.contactos{
+    margin-top: 550px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+h3{
+    align-self: center;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+
+@media (max-width:414px){
+    .nav1{
+        padding: 2px;
+        font-size: 15px;
+    }
+    .lista1 li{
+        padding: 5px;
+    }
+    .nav2{
+        padding: 5px;
+    }
+    .lista2 li{
+        padding: 0px;
+        font-size: 10px;
+    }
+.titulo2, .boton{
+        margin-left: 250px;
+    } 
+    .titulo2{
+        font-size: 20px;
+        text-align: justify;
+        padding-top: -15px;
+        margin-left: 70px;
+        color: white;
+    }
+    .boton{
+        margin-left: 150px;
+    }
+    .titulo1{
+        margin-left: 15px;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
